@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <group>
+        <item android:id="@+id/nav_item_main"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="@string/rutas" />
+        <item android:id="@+id/nav_item_userP"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="@string/mi_perfil" />
+        <item android:id="@+id/nav_item_Wall"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="@string/busca_tu_companero" />
+
+    </group>
+    <item android:title="@string/cuenta">
+        <menu>
+            <item android:id="@+id/nav_item_CerrarS"
+                android:icon="@drawable/ic_launcher_foreground"
+                android:title="@string/cerrar_S_drawer" />
+            <item android:id="@+id/nav_item_Reestablecer"
+                android:icon="@drawable/ic_launcher_foreground"
+                android:title="@string/reestablecer_ajustes" />
+        </menu>
+    </item>
+
+</menu>
