@@ -10,6 +10,6 @@ class RecordActivity : AppCompatActivity() {
     }
     public fun mamapinga(){
         var aaronmamaguevo= "las de 12 son god"
-        /// musica cañera
+        /// musica cañeraas
     }
 }
