@@ -49,7 +49,7 @@
     <string name="navigation_drawer_close">Close</string>
     <string name="init_stop_watch_value">STOP</string>
 
-    <string name="bar_title_record">Tomaquetomatá</string>
+    <string name="bar_title_record">Historial</string>
 
     <string name="orderby_dateZA">Fecha (Recientes primero)</string>
     <string name="orderby_durationZA">Duración (Mayores primero)</string>
@@ -105,5 +105,6 @@
     <string name="medalDistanceDescription">Distancia [Record Personal]</string>
     <string name="medalAvgSpeedDescription">Vel. Máx. [Record Personal]</string>
     <string name="medalMaxSpeedDescription">Vel. Prom. [Record Personal]</string>
+    <string name="historial">Historial</string>
 
 </resources>

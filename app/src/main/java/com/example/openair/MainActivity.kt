@@ -506,6 +506,8 @@ class MainActivity : AppCompatActivity() , NavigationView.OnNavigationItemSelect
         when (item.itemId){
             R.id.nav_item_Wall -> callMuroActivity()
             R.id.nav_item_CerrarS -> signOut()
+            R.id.nav_item_Historial -> callHistorial()
+
         }
         drawer.closeDrawer(GravityCompat.START)
 
@@ -521,6 +523,9 @@ class MainActivity : AppCompatActivity() , NavigationView.OnNavigationItemSelect
 
     private fun callMuroActivity(){
         startActivity(Intent(this, ActivityWall::class.java))
+    }
+    private fun callHistorial(){
+        startActivity(Intent(this, RecordActivity::class.java))
     }
 
     fun inflateIntervalMode(v: View){

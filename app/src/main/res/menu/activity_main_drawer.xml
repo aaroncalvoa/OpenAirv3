@@ -22,6 +22,9 @@
             <item android:id="@+id/nav_item_Reestablecer"
                 android:icon="@drawable/ic_launcher_foreground"
                 android:title="@string/reestablecer_ajustes" />
+            <item android:id="@+id/nav_item_Historial"
+                android:icon="@drawable/ic_launcher_foreground"
+                android:title="@string/historial" />
         </menu>
     </item>
 
