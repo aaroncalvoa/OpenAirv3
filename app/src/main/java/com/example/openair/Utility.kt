@@ -20,7 +20,6 @@ object Utility {
                 "${if (minutes < 10) "0" else ""}$minutes:" +
                 "${if (seconds < 10) "0" else ""}$seconds"
     }
-
     fun getSecFromWatch (watch: String): Int{
 
         // OK 00:00
